@@ -7,7 +7,7 @@ metadata:
     provider: aws
     service: eks
     compute: managed
-  #namespace: eksnamespace  
+  namespace: eksnamespace  
 spec:
   #writeConnectionSecretsToNamespace: crossplane-system
   compositeTypeRef:

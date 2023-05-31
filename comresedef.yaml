@@ -3,7 +3,7 @@ apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
   name: eksclusters.eks.mehdi.io
-  #namespace: eksnamespace  
+  namespace: eksnamespace  
 spec:
   group: eks.mehdi.io
   names:
