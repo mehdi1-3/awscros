@@ -1,0 +1,12 @@
+apiVersion: eks.aws.upbound.io/v1beta1
+kind: Cluster
+metadata:
+  labels:
+    type: eks
+  name: eks-cluster
+spec:
+  forProvider:
+    region: us-west-2
+    roleArn: arn:aws:iam::743772983068:role/eks
+  providerConfigRef:
+    name: aws-provider-config
