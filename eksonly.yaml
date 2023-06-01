@@ -8,5 +8,9 @@ spec:
   forProvider:
     region: us-west-2
     roleArn: arn:aws:iam::743772983068:role/eks
+  vpcConfig:
+    - subnetIdRefs:
+        - name: crossplane-cluster-hl22z
+        - name: crossplane-cluster-kqqpk
   providerConfigRef:
     name: aws-provider-config
