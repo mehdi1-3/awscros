@@ -2,7 +2,7 @@
 apiVersion: eks.mehdi.io/v1beta1
 kind: EKSCluster
 metadata:
-  name: cluster
+  name: ekscluster
   #namespace: eksnamespace    
 spec:
   parameters:
