@@ -2,7 +2,7 @@
 apiVersion: eks.mehdi.io/v1beta1
 kind: EKSCluster
 metadata:
-  name: crossplane-cluster
+  name: cluster
   #namespace: eksnamespace    
 spec:
   parameters:
