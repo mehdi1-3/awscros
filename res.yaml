@@ -28,7 +28,7 @@ spec:
     subnet2-private-availabilityZone: "us-west-2b"     
 
     cluster-role: arn:aws:iam::743772983068:role/eks
-    workernode-role: arn:aws:iam::743772983068:instance-profile/eksnode
+    workernode-role: arn:aws:iam::743772983068:instance-profile/nodegroup
 
     k8s-version: "1.26"
     workload-type: "non-gpu"
